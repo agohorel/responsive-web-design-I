@@ -486,6 +486,10 @@ nav a:not(:last-of-type) {
     width: 100%;
   }
 
+  header nav .navlink {
+    transition: 0.2s ease-in-out all;
+  }
+
   .details-row {
     display: flex;
     flex-direction: column;
@@ -517,7 +521,7 @@ nav a:not(:last-of-type) {
   }
 
   header nav .navlink {
-    transition: .2s ease-in-out all;
+    transition: 0.2s ease-in-out all;
     margin-right: 0px;
     padding: 20px 0 20px 0;
     border-top: 1px solid white;
